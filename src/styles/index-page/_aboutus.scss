@@ -1,0 +1,125 @@
+.info {
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  margin: 0 0 8rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.info .img-frame {
+  height: 100%;
+  width: 58%;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  &:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 55.5%;
+    content: "";
+    background: #252525;
+    z-index: -1;
+  }
+  & .text {
+    width: 41.2%;
+    color: rgba(255, 255, 255, .1);
+    position: relative;
+    text-align: center;
+    padding: 8rem 0;
+  }
+  & .image {
+    padding: 8rem 0;
+    width: 58.8%;
+    & img {
+      box-shadow: 0 0 3rem rgba(0, 0, 0, .2);
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
+.info .txt-frame {
+  padding: 0 0 0 4.1%;
+  color: #707070;
+  width: 42%;
+}
+
+.info .txt-frame h3 {
+	font-weight: 700;
+	margin: 0 0 22px;
+	color: #252525;
+	font-size: 3.6rem;
+	line-height: 3.6rem;
+}
+
+.info .txt-frame h3 a {
+	text-decoration: none;
+	color: #252525;
+	-webkit-transition: all ease .5s;
+	transition: all ease .5s;
+}
+
+.info .txt-frame p {
+  font-weight: 300;
+  margin: 0 0 55px;
+}
+
+.info {
+  .num {    
+    font-family: 'OCRAStd', sans-serif;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 7.2rem;
+    line-height: 7.2rem;
+    padding: 1.2rem 12.9rem 0 3rem;
+    letter-spacing: 1.4rem;
+    color: rgba(255, 255, 255, 0.1);
+  }
+  .tild {
+    margin: 0 -19px 0 0;
+    font-size: 2.4rem;
+    line-height: 2.4rem;
+    display: inline-block;
+    vertical-align: bottom;
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 213px;
+    right: -30px;
+    letter-spacing: 24px;
+    font-weight: 700;
+    white-space: nowrap;
+    color: rgba(255, 255, 255, 0.1);
+  }
+  .box {
+    position: absolute;
+    left: 4rem;
+    text-align: center;
+    bottom: 7.2rem;
+  }
+  .text h3 {
+    margin: 0 0 12px;
+    color: #fff;
+    font-weight: 300;
+    font-size: 3.6rem;
+    line-height: 3.6rem;
+  }
+  .text p {
+    margin: 0;
+    font-size: 1.3rem;
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: 1.9px;
+  }
+  .box-inner {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    margin: 0;
+  }
+}

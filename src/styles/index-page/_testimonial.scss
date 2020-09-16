@@ -1,0 +1,140 @@
+#testimonial .info .img-frame {
+  position: relative;
+  vertical-align: top;
+  padding: 4.7% 0 0;
+  z-index: 1;
+  width: 28.2%;
+  .text {
+    width: auto;
+    position: unset;
+    padding: 0;
+  }
+  &:after {
+    width: 113.7%;
+  }
+  & .tild {
+    top: 285px;
+    right: -50px;
+  }
+  & .num {
+    padding: 25px 0 0 30px;
+  }
+}
+
+#testimonial .txt-frame {
+  width: 72%;
+  padding: 0;
+  z-index: 1;
+}
+
+#testimonial .more {
+  right: auto;
+  left: 40px;
+}
+
+#testimonial .slider {
+  position: relative;
+  padding: 97px 0 80px;
+  & .mask {
+    padding: 78px 0 0;
+  }
+  & .slide {
+    display: flex;
+    padding: 30px 35px 79px;
+    background: #fff;
+    box-shadow: 0 14px 54px rgba(0, 0, 0, .22);
+    position: relative;
+  }
+  .images {
+    float: right;
+    width: 45%;
+    margin-top: -78px;
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  & blockquote {
+    color: #252525;
+    font-weight: 300;
+    float: left;
+    width: 55%;
+    border: 0;
+    margin: 0;
+    padding: 26px 20px 0 0;
+    letter-spacing: .2px;
+    font-size: 14px;
+    line-height: 20px;
+    position: relative;
+    q {
+      quotes: none;
+      display: block;
+      margin: 0 0 6px;
+      position: relative;
+      z-index: 1;
+      &:after {
+        position: absolute;
+        left: 3px;
+        top: -14px;
+        font-family: "fontello";
+        content: "\e808";
+        color: #eee;
+        z-index: -1;
+        font-size: 58px;
+        line-height: 58px;
+      }
+    }
+    cite {
+      font-style: normal;
+    }
+    .heading4 {
+      margin: 0;
+      font-size: 16px;
+      line-height: 18px;
+      font-weight: 200;
+    }
+    .designation {
+      display: block;
+      text-transform: uppercase;
+      color: #b7b7b7;
+      letter-spacing: 2.9px;
+      font-size: 12px;
+      line-height: 16px;
+    }
+  }
+  .select-slide {
+    width: 90%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  .mask-inner {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin-bottom: 0;
+    margin-left: -2.2%;
+    margin-right: -2.2%;
+    & li {
+      width: 33.1%;
+      padding-left: 2.2%;
+      padding-right: 2.2%;
+    }
+    a {
+      display: block;
+      cursor: pointer;
+    }
+    a.active {
+      opacity: 1;
+      box-shadow: 0 0 30px rgba(0, 0, 0, .2);
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      &:hover {
+        opacity: 1;
+	      box-shadow: 0 0 30px rgba(0, 0, 0, .2);
+      }
+    }
+  }
+}

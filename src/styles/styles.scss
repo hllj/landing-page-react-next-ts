@@ -1,0 +1,22 @@
+// font style
+@import "./fonts";
+
+// base style
+@import "./base/base";
+
+// layout style
+@import "./layouts/layout";
+@import "./layouts/header";
+@import "./index-page/aboutus";
+@import "./index-page/aboutteam";
+@import "./index-page/textbox";
+@import "./index-page/selectbox";
+@import "./index-page/ourwork";
+@import "./index-page/testimonial";
+
+// font awesome
+@import "./font-awesome/fontawesome.scss";
+@import "./font-awesome/solid.scss";
+@import "./font-awesome/brands.scss";
+@import "./font-awesome/regular.scss";
+@import "./font-awesome/v4-shims.scss";
