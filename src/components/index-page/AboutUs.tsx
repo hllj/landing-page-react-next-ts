@@ -2,7 +2,7 @@ import ImageFrame from "./ImageFrame";
 
 const AboutUs = () => {
   return (
-    <div id="about-us" className="max-container">
+    <div id="about-us">
       <div className="info">
         <ImageFrame id="1" title="ABOUT US" imgSrc="/images/img-02.jpg">
           <div className="box">

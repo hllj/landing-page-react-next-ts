@@ -1,0 +1,62 @@
+.client-area {
+  padding: 0;
+  list-style: none;
+  margin: -12px 0 77px;
+  & li {
+    display: inline-block;
+    vertical-align: middle;
+    width: 19.5%;
+    text-align: center;
+  }
+  & .box {
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  & .ico {
+    display: inline-block;
+    vertical-align: middle;
+    width: 48px;
+    min-height: 100px;
+    & img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+    &.team {
+      width: 60px;
+      padding: 9px 0 0;
+    }
+    &.days {
+      width: 44px;
+    }
+    &.task {
+      width: 52px;
+      padding: 13px 0 0;
+    }
+    &.heart {
+      width: 52px;
+      padding: 11px 0 0;
+    }
+  }
+  & .title {
+    display: block;
+    font-style: italic;
+    font-size: 14px;
+    line-height: 16px;
+    color: #707070;
+    font-weight: normal;
+    margin: 0 0 28px;
+    letter-spacing: 2.7px;
+  }
+  & .count {
+    display: block;
+    color: #252525;
+    font-weight: 700;
+    letter-spacing: 6.9px;
+    font-size: 36px;
+    line-height: 38px;
+  }
+
+}
+

@@ -1,4 +1,6 @@
 #our-work {
+  display: flex;
+  justify-content: space-between;
   & .info.frame-reverse .img-frame {
     width: 32.2%;
     vertical-align: top;

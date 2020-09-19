@@ -1,4 +1,6 @@
 #blog {
+  display: flex;
+  justify-content: space-between;
   & .info.frame-reverse .img-frame {
     vertical-align: top;
     padding: 4.7% 0 0;

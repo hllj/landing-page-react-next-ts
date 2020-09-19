@@ -22,7 +22,7 @@ const Services: Service[] = [
 
 const OurWork = () => {
   return (
-    <div id="our-work" className="max-container">
+    <div id="our-work" >
       <div className="info team frame-reverse">
         <ImageFrame id="4" title="OUR SERVICES">
           <Link href="#">

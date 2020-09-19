@@ -19,7 +19,7 @@ const Testimonials: Testimonial[] = [
 const Testimonial = () => {
   const [member, setMember] = useState(Testimonials[0])
   return (
-    <div id="testimonial" className="max-container">
+    <div id="testimonial">
       <div className="info">
         <ImageFrame id="5" title="TESTIMONIALS" >
           <Link href="#">

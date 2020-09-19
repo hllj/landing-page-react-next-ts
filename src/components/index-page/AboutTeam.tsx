@@ -15,7 +15,7 @@ const Team: Member[] = [
 const AboutTeam = () => {
   const [view, setView] = useState(Team[0]);
   return (
-    <div id="about-team" className="max-container">
+    <div id="about-team">
       <div className="info team frame-reverse">
         <ImageFrame id="2" title="OUR TEAMS" imgSrc={view.img}>
           <Link href="#">

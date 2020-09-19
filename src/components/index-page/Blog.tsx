@@ -17,7 +17,7 @@ const Articles: Article[] = [
 
 const Blog = () => {
   return (
-    <div id="blog" className="max-container">
+    <div id="blog">
       <div className="info blog frame-reverse">
         <ImageFrame id="6" title="OUR BLOGS">
           <Link href="#">
