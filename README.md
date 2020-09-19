@@ -19,8 +19,8 @@ npm run dev
 
 ## TODO
 
-- [ ] Create basic UI for each section (except carousel in section 1)
+- [x] Create basic UI for each section (except carousel in section 1)
 
-- [x] Responsive and Animation
+- [ ] Responsive and Animation
 
 - [ ] Create API and connect to DB
