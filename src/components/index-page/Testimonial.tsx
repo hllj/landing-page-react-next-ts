@@ -40,8 +40,8 @@ const Testimonial = () => {
                     <ul className="mask-inner">
                       {Testimonials.map((testimonial, idx) => {
                         return (
-                          <li>
-                            <a key={idx} className={testimonial.id === member.id ? 'active' : ''} onClick={() => {setMember(testimonial)}}>
+                          <li key={idx}>
+                            <a className={testimonial.id === member.id ? 'active' : ''} onClick={() => {setMember(testimonial)}}>
                               <img src={testimonial.imgSrc} alt="image description" />
                             </a>
                           </li>
