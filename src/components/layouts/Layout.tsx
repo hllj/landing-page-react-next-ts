@@ -14,7 +14,6 @@ const Layout = ({ children, title = 'This is the default title' }: Props) => (
     <Head>
       <title>{title}</title>
       <meta charSet="UTF-8" />
-      <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossOrigin="anonymous" />
       <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"/>

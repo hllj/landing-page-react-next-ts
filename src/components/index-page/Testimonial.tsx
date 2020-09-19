@@ -41,7 +41,7 @@ const Testimonial = () => {
                       {Testimonials.map((testimonial, idx) => {
                         return (
                           <li>
-                            <a className={testimonial.id === member.id ? 'active' : ''} onClick={() => {setMember(testimonial)}}>
+                            <a key={idx} className={testimonial.id === member.id ? 'active' : ''} onClick={() => {setMember(testimonial)}}>
                               <img src={testimonial.imgSrc} alt="image description" />
                             </a>
                           </li>
