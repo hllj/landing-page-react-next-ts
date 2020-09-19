@@ -2,6 +2,18 @@
   padding: 33px 0 17px;
   background: #fff;
   margin-top: -10rem;
+  &.sticky-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9;
+    -webkit-transition: all .6s ease .8s;
+    transition: all .6s ease .8s;
+    -ms-transform: translateY(100px);
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+  }
 }
 
 .logo {

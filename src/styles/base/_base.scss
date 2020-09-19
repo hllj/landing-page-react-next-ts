@@ -3,6 +3,7 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -14,4 +15,36 @@ body {
   max-width: 1280px;
   margin: 0 auto;
   padding: 0 1.5rem;
+}
+
+#back-top {
+  bottom: 0;
+  opacity: 0;
+  z-index: 9;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  font-size: 25px;
+  position: fixed;
+  line-height: 47px;
+  text-align: center;
+  border-radius: 50%;
+  background: #252525;
+  -webkit-transition: all .6s ease;
+  transition: all .6s ease;
+  -webkit-transform: translateY(40px);
+  transform: translateY(40px);
+  -ms-transform: translateY(40px);
+  -webkit-transition: all .6s ease;
+  -webkit-transform: translateY(40px);
+  color: #ff1a56;
+  &.active {
+    opacity: 1;
+    transition: all .6s ease;
+    -webkit-transition: all .6s ease;
+    -ms-transform: translateY(-20px);
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
 }

@@ -1,0 +1,61 @@
+#our-work {
+  display: flex;
+  justify-content: space-between;
+  & .info.frame-reverse .img-frame {
+    width: 32.2%;
+    vertical-align: top;
+    text-align: right;
+    padding: 4.8% 0 0;
+    color: rgba(255, 255, 255, .1);
+  }
+  .info .img-frame .text {
+    position: unset;
+    width: auto;
+    padding: 0;
+  }
+  .info.frame-reverse .img-frame:after {
+    width: 100%;
+  }
+  .info.frame-reverse .tild {
+    left: -30px;
+    top: 275px;
+  }
+  & .txt-frame {
+    width: 67.8%;
+  }
+  .info.frame-reverse .num {
+    padding: 12px 15px 0 0;
+  }
+}
+
+.services.row {
+  list-style: none;
+  padding-left: 0;
+  margin-left: -1rem;
+  margin-right: -1rem;
+  li {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 6.8rem;
+    i {
+      color: #ff1a56;
+      display: block;
+      margin: 0 0 10px;
+    }
+    span {
+      font-size: 16px;
+      line-height: 18px;
+      text-transform: uppercase;
+      font-weight: 700;
+      letter-spacing: 1.3px;
+    }
+    & h3 {
+      margin: 0 0 20px;
+      font-size: 16px;
+      line-height: 18px;
+      text-transform: uppercase;
+      font-weight: 700;
+      letter-spacing: 1.3px;
+    }
+  }
+}
